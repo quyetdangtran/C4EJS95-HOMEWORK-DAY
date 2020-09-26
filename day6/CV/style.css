@@ -1,0 +1,143 @@
+body{
+    background:  #37474f;
+    font-size: 16px;
+    line-height: 22px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.resume{
+    max-width: 980px;
+    width:100%;
+    height:auto;
+    display: flex;
+    margin: 50px auto;
+}
+.resume .resume_left {
+    width:35%;
+    background: #0bb5f4;
+}
+.resume .resume_right{
+    width: 65%;
+    background:white;
+}
+.name{
+    text-align: center;
+    margin-top: 10px;
+}
+.job{
+    text-align: center;
+}
+.resume_profile img{
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, .1);
+    margin: 30px 1px 10px 40px ;
+    vertical-align: middle;
+    background: white;
+ }   
+ .resume .resume_contact {
+     padding:25px 0;
+     border-top: 3px solid #b1eaff;;
+     border-bottom: 3px solid #b1eaff;
+ } 
+ .resume_info{
+    margin: 50px 0;
+}
+.resume_contact{
+    margin: 50px 0;
+}
+.resume_left .resume_content{
+    padding:0 20px
+}
+.resume_right .resume_skills {
+    padding:20px 50px
+}
+.resume_right .resume_work{
+    padding: 20px 50px
+}
+.resume_right .resume_lang {
+    padding:20px 50px
+}
+.resume_right .resume_edu {
+    padding:20px 50px
+}
+
+
+
+ 
+.resume .resume_right .resume_skills ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.resume .resume_right .resume_skills ul li .skill_name{
+    width: 25%;
+}
+.resume .resume_right .resume_skills ul li .skill_progress{
+width: 70%;
+margin:0 10px;
+height: 10px;
+background:gray;
+position: relative;
+}
+.resume .resume_right .resume_skills ul li .skill_per{
+    width: 15%;
+}
+.resume .resume_right .resume_skills ul li .skill_progress span{
+    position:absolute;
+    top :0;
+    left:0;
+    height: 100%;
+    background:#0bb5f4 ;
+}
+.resume_right .bold{
+
+    border-bottom: 3px solid #0bb5f4  ;
+}
+ .work_title  {
+    margin: 0 60px;
+}
+ .work_content {
+    margin: 0 60px;
+}
+.work_title .meta{
+    color:gray;
+}
+.resume_info .content{
+    margin-left: 50px;
+}
+ul{
+    list-style-type: none;
+}
+ .circle {
+	font-size: 14px;
+	color: #fff;
+	background: #263238;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 20px;
+}
+.circle.circle--large {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+}
+.circle.circle--medium {
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+}
+.circle.circle--small {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.circle.circle--white {
+	background: #fff;
+	color: #263238;
+}
+
