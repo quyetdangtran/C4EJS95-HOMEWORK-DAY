@@ -70,7 +70,6 @@ console.log(e);
 // 11.5
 console.log("bai 11.5 & 11.6");
 const upBtn = document.getElementById("upper_btn");
-const nameIn = name_input.value;
 upBtn.addEventListener("click", () => {
   const nameIn = name_input.value;
   console.log(`user name: ${nameIn}.`);
